@@ -1,13 +1,23 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch
 langchain
 langchain-community
-transformers 
+langchain-text-splitters
+langchain-chroma
+langchain-huggingface
+transformers
 sentence-transformers
 accelerate
+bitsandbytes
 python-dotenv
 pypdf
-langchain-pinecone
-pinecone-client
 flask
 requests
 tiktoken
+notebook
+ipykernel
+huggingface_hub[hf_xet]
+ipywidgets
+chromadb
 -e .
