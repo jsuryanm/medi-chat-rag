@@ -1,0 +1,13 @@
+langchain
+langchain-community
+transformers 
+sentence-transformers
+accelerate
+python-dotenv
+pypdf
+langchain-pinecone
+pinecone-client
+flask
+requests
+tiktoken
+-e .
