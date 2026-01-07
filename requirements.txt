@@ -12,7 +12,6 @@ accelerate
 bitsandbytes
 python-dotenv
 pypdf
-flask
 requests
 tiktoken
 notebook
@@ -20,4 +19,9 @@ ipykernel
 huggingface_hub[hf_xet]
 ipywidgets
 chromadb
+fastapi
+uvicorn
+fastapi[users]
+streamlit
+
 -e .
