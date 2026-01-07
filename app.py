@@ -11,23 +11,19 @@ st.set_page_config(
 
 st.title("🩺 Medi-Chat RAG")
 
-# Disclaimer (always visible)
 st.warning(
     "⚠️ **Disclaimer**: This application is for educational purposes only. "
     "It does NOT provide medical advice. "
     "Please consult a qualified doctor or healthcare professional."
 )
 
-# Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Display previous messages
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
-# Chat input box
 user_input = st.chat_input("Ask a medical question")
 
 if user_input:
