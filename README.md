@@ -1,7 +1,4 @@
-# Medical RAG Chatbot 
-An end‑to‑end medical question‑answering chatbot built using Retrieval‑Augmented Generation (RAG).
-
-# 🩺 Medi-Chat RAG
+#  Medical RAG Chatbot
 
 **Medi-Chat RAG** is an **educational medical question-answering chatbot** built using **Retrieval-Augmented Generation (RAG)**.
 It allows users to ask medical-related questions and receive answers grounded in uploaded PDF documents.
