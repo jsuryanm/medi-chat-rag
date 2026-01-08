@@ -9,7 +9,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🩺 Medi-Chat RAG")
+st.title("🩺 Medical RAG Chatbot")
 
 st.warning(
     "⚠️ **Disclaimer**: This application is for educational purposes only. "
