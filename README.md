@@ -31,6 +31,7 @@ medi-chat-rag/
 │   ├── __init__.py
 │   ├── helper.py        # RAG pipeline logic
 │   └── prompt.py        # Prompt template with disclaimer
+│   └── guard.py                 
 │
 ├── research/
 │   ├── chroma_db/       # Persistent Chroma vector store
