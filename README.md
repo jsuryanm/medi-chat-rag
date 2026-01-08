@@ -141,9 +141,9 @@ http://localhost:8501
   * *What are the symptoms of diabetes?*
   * *What is hypertension?*
 * Answers are **strictly based on the uploaded PDFs**
-* If information is unavailable, the bot responds:
+* If questions are not relevant to medical context it will instruct user to ask medical questions:
 
-  > *"I don't know"*
+  > *"Please ask questions about healtcare topics,medications,...."*
 
 ---
 
