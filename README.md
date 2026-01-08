@@ -38,6 +38,7 @@ medi-chat-rag/
 │   └── trials.ipynb     # Experiments & notebooks
 │
 ├── data/                # Medical PDF documents
+│   ├── Medical_book.pdf      
 │
 ├── app.py               # Streamlit frontend
 ├── server.py            # FastAPI backend
@@ -173,7 +174,7 @@ http://localhost:8501
 ##  Future Improvements
 
 * Authentication & user sessions
-* Document upload via UI
+* Improvise by using an agentic rag
 * Source citation highlighting
 * Multi-document collections
 * Deployment with Docker
